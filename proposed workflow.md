@@ -3,11 +3,11 @@ new structure on Google Cloud:
 - venues
   - venues/94th Aero Squadron Restaurant_
     - venues/94th Aero Squadron Restaurant_/94th Aero Squadron Restaurant_.pdf
-      - venues/94th Aero Squadron Restaurant_/img001.jpg
-      - venues/94th Aero Squadron Restaurant_/img002.jpg
-      - venues/94th Aero Squadron Restaurant_/img003.jpg
-      - venues/94th Aero Squadron Restaurant_/img004.jpg
-      ...
+    - venues/94th Aero Squadron Restaurant_/img001.jpg
+    - venues/94th Aero Squadron Restaurant_/img002.jpg
+    - venues/94th Aero Squadron Restaurant_/img003.jpg
+    - venues/94th Aero Squadron Restaurant_/img004.jpg
+    ...
 
   - venues/Ace Hotel Palm Springs
     - venues/Ace Hotel Palm Springs/Ace Hotel Palm Springs.pdf
