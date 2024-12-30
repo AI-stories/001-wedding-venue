@@ -1,18 +1,18 @@
 # To run the app, follow the steps below:
 Step 1. Create all the API keys (detailed instruction below)
 
+Step 2. On your github account, fork this [repository](https://github.com/AI-stories/001-wedding-venue)
 
-Step 2. On your Github account, clone this [repository](https://github.com/AI-stories/001-wedding-venue)
-
-![alt text](readme_images/clone-repository.png)
+![alt text](readme_images/fork.png)
 
 Step 3. Create your [streamlit cloud account](https://streamlit.io/cloud)
+
 
 Step 4. Connec the Github repository to the streamlit account to deploy the app. I will do this step with you in a call.
 
 # Details steps for setting up API keys
 
-- [Set up for local development](#set-up-for-local-development)
+
 - [OpenAI secret](#openai-secret)
 - [Adobe PDF Services secrets](#adobe-pdf-services-secrets)
 - [Google Cloud Storage secrets](#google-cloud-storage-secrets)
@@ -21,38 +21,8 @@ Step 4. Connec the Github repository to the streamlit account to deploy the app.
 - [Google Cloud Storage](#google-cloud-storage)
 - [Updating the database](#updating-the-database)
 - [Quick links](#quick-links)
+- [Set up for local development](#set-up-for-local-development)
 
-# Set up for local development
-
-We use `python-dotenv` to load secrets from a `.env` file into the environment. 
-
-
-Create a `.env` file in the root directory
-
-```
-├── function
-│   ├── ....
-├── pipelines
-│   ├── ...
-├── .env # <--- here
-├── app.py
-├── packages.txt
-├── ...
-```
-
-containing something like this:
-
-```
-# OpenAI
-OPENAI_API_KEY=sk-proj-zGBOFujkl-...
-
-# Adobe PDF Services
-ADOBE_CLIENT_ID=bd7a6964a749b6...
-ADOBE_CLIENT_SECRET=p9e-uF9zg...
-
-# Google Cloud Storage
-GOOGLE_APPLICATION_CREDENTIALS="/Users/bobby/Documents/001-wedding-venue/turing-guard-454623-t7-2ci0v965a132.json"
-```
 
 # OpenAI secret
 
@@ -228,3 +198,34 @@ After a few seconds, a new workflow will appear
 - [Google Cloud Storage](https://console.cloud.google.com/storage/browser/wedding-venues-001)
 - [Streamlit Cloud](https://share.streamlit.io)
 
+# Set up for local development
+
+We use `python-dotenv` to load secrets from a `.env` file into the environment. 
+
+
+Create a `.env` file in the root directory
+
+```
+├── function
+│   ├── ....
+├── pipelines
+│   ├── ...
+├── .env # <--- here
+├── app.py
+├── packages.txt
+├── ...
+```
+
+containing something like this:
+
+```
+# OpenAI
+OPENAI_API_KEY=sk-proj-zGBOFujkl-...
+
+# Adobe PDF Services
+ADOBE_CLIENT_ID=bd7a6964a749b6...
+ADOBE_CLIENT_SECRET=p9e-uF9zg...
+
+# Google Cloud Storage
+GOOGLE_APPLICATION_CREDENTIALS="/Users/bobby/Documents/001-wedding-venue/turing-guard-454623-t7-2ci0v965a132.json"
+```
