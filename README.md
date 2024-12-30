@@ -1,5 +1,7 @@
 # To run the app, follow the steps below:
 Step 1. Create all the API keys (detailed instruction below)
+
+
 Step 2. On your Github account, clone this [repository](https://github.com/AI-stories/001-wedding-venue)
 
 ![alt text](readme_images/clone-repository.png)
