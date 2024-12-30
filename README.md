@@ -1,4 +1,14 @@
-# Table of contents
+# To run the app, follow the steps below:
+Step 1. Create all the API keys (detailed instruction below)
+Step 2. On your Github account, clone this [repository](https://github.com/AI-stories/001-wedding-venue)
+
+![alt text](readme_images/clone-repository.png)
+
+Step 3. Create your [streamlit cloud account](https://streamlit.io/cloud)
+
+Step 4. Connec the Github repository to the streamlit account to deploy the app. I will do this step with you in a call.
+
+# Details steps for setting up API keys
 
 - [Set up for local development](#set-up-for-local-development)
 - [OpenAI secret](#openai-secret)
