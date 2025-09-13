@@ -38,8 +38,6 @@ create credentials
 
 This will download a zip file containing a `pdfservices-api-credentials.json` file. 
 
-![alt text](readme_images/image-14.png)
-
 
 
 # Google Cloud Storage secrets
